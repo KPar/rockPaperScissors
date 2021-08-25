@@ -52,17 +52,4 @@ function game(){
     }
 }
 
-//console.log(game());
-
-function te(){
-    let args = arguments;
-   // console.log(args[0]);
-    
-    let arr = args[0];
-    console.log(arr);
-    for(let i = 1; i < args.length; i++){
-         arr.splice(arr.indexOf(args[i]), 1);
-    }
-    return arr
-}
-console.log(te([1,2,4], 2, 4));
+console.log(game());
